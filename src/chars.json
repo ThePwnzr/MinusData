@@ -1,0 +1,234 @@
+{
+    "characters": [
+        {
+            "name": "mario",
+            "label": "Mario",
+            "icon": "MenSelchrChrFace.001.png"
+        },
+        {
+            "name": "drmario",
+            "label": "Dr. Mario",
+            "icon": "MenSelchrChrFace.114.png"
+        },
+        {
+            "name": "luigi",
+            "label": "Luigi",
+            "icon": "MenSelchrChrFace.009.png"
+        },
+        {
+            "name": "peach",
+            "label": "Peach",
+            "icon": "MenSelchrChrFace.013.png"
+        },
+        {
+            "name": "koopa",
+            "label": "Bowser",
+            "icon": "MenSelchrChrFace.012.png"
+        },
+        {
+            "name": "yoshi",
+            "label": "Yoshi",
+            "icon": "MenSelchrChrFace.005.png"
+        },
+        {
+            "name": "donkey",
+            "label": "Donkey Kong",
+            "icon": "MenSelchrChrFace.002.png"
+        },
+        {
+            "name": "diddy",
+            "label": "Diddy Kong",
+            "icon": "MenSelchrChrFace.027.png"
+        },
+        {
+            "name": "wario",
+            "label": "Wario",
+            "icon": "MenSelchrChrFace.038.png"
+        },
+        {
+            "name": "waluigi",
+            "label": "Waluigi",
+            "icon": "MenSelchrChrFace.113.png"
+        },
+        {
+            "name": "link",
+            "label": "Link",
+            "icon": "MenSelchrChrFace.003.png"
+        },
+        {
+            "name": "zelda",
+            "label": "Zelda",
+            "icon": "MenSelchrChrFace.014.png"
+        },
+        {
+            "name": "sheik",
+            "label": "Sheik",
+            "icon": "MenSelchrChrFace.015.png"
+        },
+        {
+            "name": "ganon",
+            "label": "Ganondorf",
+            "icon": "MenSelchrChrFace.020.png"
+        },
+        {
+            "name": "toonlink",
+            "label": "Toon Link",
+            "icon": "MenSelchrChrFace.041.png"
+        },
+        {
+            "name": "samus",
+            "label": "Samus",
+            "icon": "MenSelchrChrFace.004.png"
+        },
+        {
+            "name": "szerosuit",
+            "label": "Zero Suit Samus",
+            "icon": "MenSelchrChrFace.024.png"
+        },
+        {
+            "name": "ridley",
+            "label": "Ridley",
+            "icon": "MenSelchrChrFace.122.png"
+        },
+        {
+            "name": "ness",
+            "label": "Ness",
+            "icon": "MenSelchrChrFace.011.png"
+        },
+        {
+            "name": "lucas",
+            "label": "Lucas",
+            "icon": "MenSelchrChrFace.026.png"
+        },
+        {
+            "name": "pikachu",
+            "label": "Pikachu",
+            "icon": "MenSelchrChrFace.008.png"
+        },
+        {
+            "name": "purin",
+            "label": "Jigglypuff",
+            "icon": "MenSelchrChrFace.037.png"
+        },
+        {
+            "name": "mewtwo",
+            "label": "Mewtwo",
+            "icon": "MenSelchrChrFace.112.png"
+        },
+        {
+            "name": "pichu",
+            "label": "Pichu",
+            "icon": "MenSelchrChrFace.110.png"
+        },
+        {
+            "name": "pokezenigame",
+            "label": "Squirtle",
+            "icon": "MenSelchrChrFace.030.png"
+        },
+        {
+            "name": "pokefushigisou",
+            "label": "Ivysaur",
+            "icon": "MenSelchrChrFace.031.png"
+        },
+        {
+            "name": "pokelizardon",
+            "label": "Charizard",
+            "icon": "MenSelchrChrFace.029.png"
+        },
+        {
+            "name": "lucario",
+            "label": "Lucario",
+            "icon": "MenSelchrChrFace.033.png"
+        },
+        {
+            "name": "popo",
+            "label": "Ice Climbers",
+            "icon": "MenSelchrChrFace.016.png"
+        },
+        {
+            "name": "captain",
+            "label": "Captain Falcon",
+            "icon": "MenSelchrChrFace.010.png"
+        },
+        {
+            "name": "kirby",
+            "label": "Kirby",
+            "icon": "MenSelchrChrFace.006.png"
+        },
+        {
+            "name": "dedede",
+            "label": "King DeDeDe",
+            "icon": "MenSelchrChrFace.032.png"
+        },
+        {
+            "name": "metaknight",
+            "label": "Meta Knight",
+            "icon": "MenSelchrChrFace.022.png"
+        },
+        {
+            "name": "fox",
+            "label": "Fox",
+            "icon": "MenSelchrChrFace.007.png"
+        },
+        {
+            "name": "falco",
+            "label": "Falco",
+            "icon": "MenSelchrChrFace.019.png"
+        },
+        {
+            "name": "wolf",
+            "label": "Wolf",
+            "icon": "MenSelchrChrFace.044.png"
+        },
+        {
+            "name": "marth",
+            "label": "Marth",
+            "icon": "MenSelchrChrFace.017.png"
+        },
+        {
+            "name": "roy",
+            "label": "Roy",
+            "icon": "MenSelchrChrFace.111.png"
+        },
+        {
+            "name": "ike",
+            "label": "Ike",
+            "icon": "MenSelchrChrFace.034.png"
+        },
+        {
+            "name": "pikmin",
+            "label": "Olimar",
+            "icon": "MenSelchrChrFace.025.png"
+        },
+        {
+            "name": "robot",
+            "label": "R.O.B",
+            "icon": "MenSelchrChrFace.035.png"
+        },
+        {
+            "name": "pit",
+            "label": "Pit",
+            "icon": "MenSelchrChrFace.023.png"
+        },
+        {
+            "name": "gamewatch",
+            "label": "Mr. Game and Watch",
+            "icon": "MenSelchrChrFace.018.png"
+        },
+        {
+            "name": "snake",
+            "label": "Snake",
+            "icon": "MenSelchrChrFace.046.png"
+        },
+        {
+            "name": "sonic",
+            "label": "Sonic",
+            "icon": "MenSelchrChrFace.047.png"
+        },
+        {
+            "name": "random",
+            "label": "Random",
+            "icon": "MenSelchrChrFace.051.png"
+        }
+    ]
+}
