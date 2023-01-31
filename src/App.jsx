@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, HashRouter, Link, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 // pages
 import Home from './pages/Home'
@@ -18,6 +18,9 @@ function App() {
           <Route path=":char" element={<CharDetails />} />
         </Route>
       </Routes>
+      <div className="footer color-white text-center">
+        <p>Website by Sammi Husky - Maintained by ThePwnzr</p>
+      </div>
     </div >
   )
 }

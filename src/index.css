@@ -94,7 +94,10 @@ body {
   margin-bottom: .5rem;
 }
 .App {
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   background-image: url('/space.jpg');
 }
 .header {
@@ -138,4 +141,11 @@ body {
 .chara-row {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  padding: 2%;
+  background-color: rgba(0,0,0,.7);
+  font-size: .9rem;
 }
