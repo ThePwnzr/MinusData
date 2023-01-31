@@ -4,7 +4,7 @@ import chars from '../chars.json'
 function CharaIcon({ name, label, icon }) {
     return (
         <Link to={'/details/' + name}>
-            <img src={'/character_images/' + icon} className='char-icon' />
+            <img src={import.meta.env.BASE_URL + '/character_images/' + icon} className='char-icon' />
         </Link>
     )
 }
