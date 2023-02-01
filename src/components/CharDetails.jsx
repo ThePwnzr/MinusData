@@ -13,23 +13,26 @@ function CharDetails() {
     const gifRef = useRef(null)
 
     const handleStepForward = () => {
-        sup1.current.pause();
-        sup1.current.move_to(60);
+        sup1.current.move_relative(1);
         console.log("step");
-        console.log(sup1.current)
     }
 
     useEffect(() => {
-        sup1.current = new SuperGif({ gif: gifRef.current, max_width: 500 });
-        sup1.current.load();
-        sup1.current.pause();
+        // only do load if img tag exists. This is to work around strict
+        // mode calling useEffect 2x times, which gives us a stale reference
+        // to a non-existant img tag, breaking controls
+        const tag = document.querySelector('img')
+        if (tag) {
+            sup1.current = new SuperGif({ gif: gifRef.current, max_width: 500 });
+            sup1.current.load();
+        }
     }, []);
 
     return (
         <div className="content">
             <h1 className="h1 color-white text-center">{char.label}</h1>
-            <img ref={gifRef} rel:animated_src={import.meta.env.BASE_URL + 'gif/ganon/AttackHi3.gif'} rel:auto_play="1" width="500"></img>
-            <input type="button" onClick={() => handleStepForward()} value="Step" />
+            <img ref={gifRef} rel:animated_src={import.meta.env.BASE_URL + 'gif/ganon/AttackHi3.gif'} rel:auto_play="0" width="500"></img>
+            <input type="button" onClick={handleStepForward} value="Step" />
         </div>
     )
 }
