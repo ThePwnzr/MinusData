@@ -14,7 +14,6 @@ function CharDetails() {
 
     const handleStepForward = () => {
         sup1.current.move_relative(1);
-        console.log("step");
     }
 
     useEffect(() => {
