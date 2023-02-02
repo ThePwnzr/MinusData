@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Attributes from './pages/Attributes'
 import Header from './components/header'
 import CharDetails from './components/CharDetails'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,9 +19,7 @@ function App() {
           <Route path=":char" element={<CharDetails />} />
         </Route>
       </Routes>
-      <div className="footer color-white text-center">
-        <p>Website by Sammi Husky - Maintained by ThePwnzr</p>
-      </div>
+      <Footer />
     </div >
   )
 }

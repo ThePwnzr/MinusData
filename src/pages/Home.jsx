@@ -1,10 +1,12 @@
 
-import CharaSelect from "../components/CharaSelect"
+import CharaSelect from "../components/CharSelect"
 function Home() {
     return (
-        <div className="content">
-            <h2 className="h2 color-white text-center">Choose Your Character</h2>
-            <CharaSelect />
+        <div className="page-wrapper">
+            <div className="content">
+                <h2 className="h2 color-white text-center">Choose Your Character</h2>
+                <CharaSelect />
+            </div>
         </div>
     )
 }
