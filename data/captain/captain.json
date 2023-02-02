@@ -1,0 +1,22 @@
+{
+    "grounded_attacks": [
+        {
+            "name": "Attack11",
+            "label": "Jab 1"
+        },
+        {
+            "name": "Attack11",
+            "label": "Jab 1"
+        },
+        {
+            "name": "Attack11",
+            "label": "Jab 1"
+        },
+        {
+            "name": "Attack11",
+            "label": "Jab 1"
+        }
+    ],
+    "special_attacks": [],
+    "misc": []
+}
