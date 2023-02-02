@@ -14,7 +14,7 @@ function CharaSelect() {
     const chunks = [];
 
     useEffect(() => {
-        fetch('/data/chars.json', { mode: 'no-cors' })
+        fetch(`${import.meta.env.BASE_URL}/data/chars.json`, { mode: 'no-cors' })
             .then(response => response.json())
             .then(data => setChars(data))
             .catch(error => console.log(error));

@@ -6,12 +6,12 @@ import HitboxModal from './HitboxModal/HitboxModal.jsx'
 
 
 async function fetchChars() {
-    let data = await fetch('/data/chars.json', { mode: 'no-cors' });
+    let data = await fetch(`${import.meta.env.BASE_URL}/data/chars.json`, { mode: 'no-cors' });
     return data.json()
 }
 
 async function fetchCharData(charName) {
-    let data = await fetch(`/data/${charName}/${charName}.json`);
+    let data = await fetch(`${import.meta.env.BASE_URL}/data/${charName}/${charName}.json`);
     return data.json();
 }
 
@@ -49,7 +49,7 @@ function CharDetails() {
                 <div className="gallery-grid">
                     {
                         charData?.grounded_attacks.map(item =>
-                            <img className='attack-preview' src={import.meta.env.BASE_URL + `img/gif/${charName}/${item.name}.gif`}
+                            <img className='attack-preview' src={`${import.meta.env.BASE_URL}img/gif/${charName}/${item.name}.gif`}
                                 width="300"
                                 onClick={() => {
                                     setShowModal(true);
