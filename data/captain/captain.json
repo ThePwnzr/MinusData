@@ -2,21 +2,113 @@
     "grounded_attacks": [
         {
             "name": "Attack11",
-            "label": "Jab 1"
+            "label": "Jab 1",
+            "stats": [
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "red"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "green"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "green"
+                }
+            ]
         },
         {
-            "name": "Attack11",
-            "label": "Jab 1"
+            "name": "Attack12",
+            "label": "Jab 2",
+            "stats": [
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                }
+            ]
         },
         {
-            "name": "Attack11",
-            "label": "Jab 1"
+            "name": "Attack13",
+            "label": "Jab 3",
+            "stats": [
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                }
+            ]
         },
         {
-            "name": "Attack11",
-            "label": "Jab 1"
+            "name": "Attack100",
+            "label": "Rapid Jab",
+            "stats": [
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                }
+            ]
+        },
+        {
+            "name": "AttackEnd",
+            "label": "Rapid Jab Finisher",
+            "stats": [
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                },
+                {
+                    "label": "Some statistic",
+                    "value": "1 frame",
+                    "color": "transparent"
+                }
+            ]
         }
     ],
+    "aerial_attacks": [],
     "special_attacks": [],
+    "grabs": [],
+    "rolls": [],
     "misc": []
 }
