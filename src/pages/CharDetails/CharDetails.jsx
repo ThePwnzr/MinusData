@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 
 import './CharDetails.css'
 import HitboxModal from '../../components/HitboxModal/HitboxModal.jsx'
+import AttackCard from "../../components/AttackCard/AttackCard";
 
 async function fetchChars() {
     let data = await fetch(`${import.meta.env.BASE_URL}/data/chars.json`, { mode: 'no-cors' });
@@ -34,6 +35,7 @@ function CharDetails() {
         }
 
         initData()
+        debugger;
 
     }, []);
 
@@ -45,37 +47,31 @@ function CharDetails() {
                 </div>
                 <div className="content-wrapper">
                     {showModal && <HitboxModal setShowModal={setShowModal} charName={charName} selectedAttack={selectedAtk} />}
-                    <section className="grounded-moves">
-                        <h2 className="h2 color-white">Grounded Moves</h2>
-                        <div className="gallery-grid">
-                            {
-                                charData?.grounded_attacks.length > 0 &&
-                                (charData?.grounded_attacks.map(item =>
-                                    <div className="attack-card" key={item.name}>
-                                        <h3 className="h3 color-white">{item.label}</h3>
-                                        <div className="image-wrapper">
-                                            <img className='attack-preview'
-                                                loading="lazy"
-                                                src={`${import.meta.env.BASE_URL}img/gif/${charName}/${item.name}.gif`}
-                                                width="300"
-                                                onClick={() => {
-                                                    setSelectedAtk(item);
-                                                    setShowModal(true);
-                                                }} />
-                                        </div>
+                    {
+                        charData && Object.entries(charData).map(([cat, moves]) =>
+                        (
+                            moves.length > 0 &&
+                            (
+                                <section className="moveset-category">
+                                    {/* replace underscores with spaces to automate moveset sections via json */}
+                                    <h2 className="h2 color-white uppercase">{cat.replace('_', ' ')}</h2>
+                                    <div className="gallery-grid">
                                         {
-                                            item.stats.length > 0 &&
-                                            (item.stats.map(stat =>
-                                                <div className="move-stat" style={{ backgroundColor: stat.color }}>
-                                                    <span>{stat.label}: </span><span>{stat.value}</span>
-                                                </div>
-                                            ))
+                                            moves.map(item =>
+                                                <AttackCard
+                                                    key={item.name}
+                                                    attack={item}
+                                                    preview={`${import.meta.env.BASE_URL}img/gif/${charName}/${item.name}.gif`}
+                                                    setSelectedAtk={setSelectedAtk}
+                                                    setShowModal={setShowModal}
+                                                />
+                                            )
                                         }
                                     </div>
-                                ))
-                            }
-                        </div>
-                    </section>
+                                </section>
+                            )
+                        ))
+                    }
                 </div>
             </div>
         </div>

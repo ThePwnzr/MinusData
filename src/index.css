@@ -112,6 +112,9 @@ body {
 .text-center {
   text-align: center;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 
 .content {
   margin: 6rem auto;

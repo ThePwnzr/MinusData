@@ -106,8 +106,8 @@
             ]
         }
     ],
-    "aerial_attacks": [],
-    "special_attacks": [],
+    "aerials": [],
+    "specials": [],
     "grabs": [],
     "rolls": [],
     "misc": []

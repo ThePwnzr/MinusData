@@ -4,8 +4,10 @@ function Home() {
     return (
         <div className="page-wrapper">
             <div className="content">
-                <h2 className="h2 color-white text-center">Choose Your Character</h2>
-                <CharaSelect />
+                <div className="content-wrapper">
+                    <h2 className="h2 color-white text-center">Choose Your Character</h2>
+                    <CharaSelect />
+                </div>
             </div>
         </div>
     )
