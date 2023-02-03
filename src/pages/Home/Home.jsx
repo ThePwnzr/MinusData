@@ -1,5 +1,5 @@
 
-import CharaSelect from "../components/CharSelect"
+import CharaSelect from "../../components/CharSelect/CharSelect.jsx"
 function Home() {
     return (
         <div className="page-wrapper">

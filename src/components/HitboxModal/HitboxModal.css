@@ -1,14 +1,15 @@
 .hitbox-modal {
+    position: fixed;
+    left: 50%;
+    top: 30%;
     background: rgba(0, 0, 0, 1);
     border-radius: 1rem;
     border: 1px solid white;
     min-height: 400px;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 30%;
     transform: translate(-50%, -30%);
     padding: 1rem;
+    z-index: 11;
   }
   
   .modal-close {
@@ -43,9 +44,14 @@
     background-color: #1b0030;
   }
 
-  .frames > span {
-    color: white;
-  }
-  .frame {
-    padding-inline: .1rem;
+  .modal-overlay {
+    content: "";
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
   }

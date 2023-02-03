@@ -4,11 +4,10 @@ import SuperGif from 'libgif'
 import './HitboxModal.css'
 
 function HitboxModal({ setShowModal, charName, selectedAttack }) {
-    const gifRef = useRef(null)
+    const gifRef = useRef(null);
     const sup1 = useRef(null);
 
     let [isPlaying, setIsPlaying] = useState(false);
-    let [numFrames, setNumFrames] = useState(0);
 
     useEffect(() => {
         // only do load if img tag exists. This is to work around strict
@@ -16,10 +15,8 @@ function HitboxModal({ setShowModal, charName, selectedAttack }) {
         // to a non-existant img tag and breaking all gif controls.
         const tag = document.querySelector('.gif-playback')
         if (tag) {
-            sup1.current = new SuperGif({ gif: gifRef.current });
-            sup1.current.load(() => {
-                setNumFrames(sup1.current.get_length());
-            });
+            sup1.current = new SuperGif({ gif: gifRef.current, max_width: 500 });
+            sup1.current.load();
             window.gif = sup1.current;
         }
     }, [])
@@ -43,15 +40,16 @@ function HitboxModal({ setShowModal, charName, selectedAttack }) {
     }
 
     return (
-        <div className="hitbox-modal">
-            <div className="modal-wrapper">
+        <div className="modal-wrapper">
+            <div className='modal-overlay' onClick={() => setShowModal(false)}></div>
+            <div className="hitbox-modal">
                 <div className="modal-close">
                     <button onClick={() => setShowModal(false)}>X</button>
                 </div>
-                <h2 className="h2 color-white">Modal for {charName} : {selectedAttack}</h2>
+                <h2 className="h2 color-white">{selectedAttack.label}</h2>
                 <img className="attack-preview gif-playback"
                     ref={gifRef}
-                    rel:animated_src={import.meta.env.BASE_URL + `img/gif/${charName}/${selectedAttack}.gif`}
+                    rel:animated_src={import.meta.env.BASE_URL + `img/gif/${charName}/${selectedAttack.name}.gif`}
                     rel:auto_play="0"
                 />
                 <div className="preview-controls">

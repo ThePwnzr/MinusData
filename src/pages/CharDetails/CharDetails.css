@@ -1,0 +1,30 @@
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: .5rem;
+}
+.page-title {
+  background: #1b0030;
+  border-radius: 1rem 1rem 0 0;
+  border-bottom: 1px solid white;
+  padding-top: 1rem;
+}
+.attack-card {
+  padding: 1rem 1rem;
+  background: #111;
+  border-radius: 10px;
+  min-width: 300px;
+}
+.image-wrapper {
+  min-height: 250px;
+  border: 1px solid black;
+  margin-block: 1rem;
+}
+
+.move-stat {
+  border: 1px solid black;
+  margin-block: 2px;
+  padding: 4px;
+  color: white;
+  font-size: .8rem;
+}
