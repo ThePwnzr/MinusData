@@ -1,0 +1,304 @@
+{
+    "grounded_attacks": [
+        {
+            "name": "Attack11",
+            "label": "Jab 1",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "5 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "5",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "14 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "19",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "10%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "350",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "40 / 30",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "50",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Inner (Red), Outer (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackS3S",
+            "label": "Forward Tilt",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "10 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "10-12",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "27 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "39",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "14% / 13%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "22",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "50",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "93",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Outer (Red), Inner (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackHi3",
+            "label": "Up Tilt",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "6 / 54 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "6-48 / 54-58",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Invulnerable",
+                    "value": "54-58",
+                    "color": "#415de8"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "39 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "97",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "1% / 30% / 30% / 20%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "0 / 80 / 361 / 80",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "WDSK 1 / 60 / 60 / 60",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100 / 64 / 64 / 37",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Windbox (Green), Outer (Red), Inner (Orange), Quake (Unpictured)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "Windboxes suck in towards the center of the square. Unpictured ground-only Quake hitbox is size 150.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackLw3",
+            "label": "Down Tilt",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "10 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "10-12",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "23 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "35",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "15%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "75",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "35",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "All (Red)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackDash",
+            "label": "Dash Attack",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "10 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "10-12 / 13-19",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Super Armor",
+                    "value": "10-19",
+                    "color": "#647be8"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "22 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "41",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "15% / 10%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "105 / 100",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "60 / 45",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "80 / 60",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Clean (Red), Late (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        }
+    ],
+    "aerials": [],
+    "specials": [],
+    "grabs": [],
+    "rolls": [],
+    "misc": []
+}
