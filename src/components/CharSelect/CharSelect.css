@@ -1,0 +1,8 @@
+.chara-row {
+  display: flex;
+  justify-content: center;
+}  
+.char-icon.disabled {
+  filter: grayscale(100%);
+}
+  

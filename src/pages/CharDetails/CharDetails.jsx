@@ -1,19 +1,11 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
+import { fetchChars, fetchCharData } from "../../Utils";
 
-import './CharDetails.css'
 import HitboxModal from '../../components/HitboxModal/HitboxModal.jsx'
 import AttackCard from "../../components/AttackCard/AttackCard";
 
-async function fetchChars() {
-    let data = await fetch(`${import.meta.env.BASE_URL}/data/chars.json`, { mode: 'no-cors' });
-    return data.json()
-}
-
-async function fetchCharData(charName) {
-    let data = await fetch(`${import.meta.env.BASE_URL}/data/${charName}/${charName}.json`);
-    return data.json();
-}
+import './CharDetails.css'
 
 function CharDetails() {
     const params = useParams();
