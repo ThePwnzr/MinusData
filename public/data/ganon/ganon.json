@@ -290,7 +290,7 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Clean Hit (Red) / Late Hit (Orange)",
+                    "value": "Clean (Red) / Late (Orange)",
                     "color": "#231f24"
                 }
             ]
@@ -770,7 +770,7 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Clean Hit (Red), Late Hit (Orange), Weak Hit (Pink)",
+                    "value": "Clean (Red), Late (Orange), Weak (Pink)",
                     "color": "#231f24"
                 },
                 {
