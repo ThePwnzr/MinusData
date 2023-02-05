@@ -32,17 +32,17 @@
                 {
                     "label": "Angle",
                     "value": "350",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "Base KB",
                     "value": "40 / 30",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "KB Growth",
                     "value": "50",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "On Shield",
@@ -51,7 +51,7 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Inner (Red), Outer (Orange)",
+                    "value": "Inner (Red) / Outer (Orange)",
                     "color": "#231f24"
                 }
             ]
@@ -88,17 +88,17 @@
                 {
                     "label": "Angle",
                     "value": "22",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "Base KB",
                     "value": "50",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "KB Growth",
                     "value": "93",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "On Shield",
@@ -107,7 +107,7 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Outer (Red), Inner (Orange)",
+                    "value": "Outer (Red) / Inner (Orange)",
                     "color": "#231f24"
                 }
             ]
@@ -129,7 +129,7 @@
                 {
                     "label": "Invulnerable",
                     "value": "54-58",
-                    "color": "#415de8"
+                    "color": "#2967cc"
                 },
                 {
                     "label": "Endlag",
@@ -149,17 +149,17 @@
                 {
                     "label": "Angle",
                     "value": "0 / 80 / 361 / 80",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "Base KB",
                     "value": "WDSK 1 / 60 / 60 / 60",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "KB Growth",
                     "value": "100 / 64 / 64 / 37",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "On Shield",
@@ -168,7 +168,7 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Windbox (Green), Outer (Red), Inner (Orange), Quake (Unpictured)",
+                    "value": "Windbox (Green) / Outer (Red) / Inner (Orange) / Quake (Unpictured)",
                     "color": "#231f24"
                 },
                 {
@@ -210,17 +210,17 @@
                 {
                     "label": "Angle",
                     "value": "75",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "Base KB",
                     "value": "35",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "KB Growth",
                     "value": "100",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "On Shield",
@@ -271,16 +271,247 @@
                 {
                     "label": "Angle",
                     "value": "105 / 100",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "Base KB",
                     "value": "60 / 45",
-                    "color": "#231f24"
+                    "color": "#402323"
                 },
                 {
                     "label": "KB Growth",
                     "value": "80 / 60",
+                    "color": "#402323"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Clean (Red) / Late (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackS4S",
+            "label": "Forward Smash",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "21 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "21-23, 24-30",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "29 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "59",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "5% / 5% -> 24% / 16%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "40 / 40 -> 80 / 80",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30 / 30 -> 30 / 30",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "83 / 75 -> 74 / 58",
+                    "color": "#402323"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Inner (Red, 1st) / Outer (Orange, 1st) -> Inner (Red, 2nd) / Outer (Orange, 2nd)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackHi4",
+            "label": "Up Smash",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "12 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "12-13",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "18 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "35",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "22% / 22% / 19%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "80 / 78 / 75",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "40 / 40 / 40",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "70 / 70 / 75",
+                    "color": "#402323"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Outer Leg (Red) / Inner Leg (Orange) / Sourspot (Pink)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackLw4",
+            "label": "Down Smash",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "15 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "15-18, 35-38",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "17 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "55",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "6% / 6% -> 15% / 13%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "140 / 50 -> 154 / 154",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "WDSK 80 / WDSK 70 -> 60 / 60",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100 / 100 -> 75 / 75",
+                    "color": "#402323"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "First Hit (Orange), Sourspot (Pink) -> Second Hit (Red), Sourspot (Pink)",
+                    "color": "#231f24"
+                }
+            ]
+        }
+    ],
+    "aerials": [
+        {
+            "name": "AttackAirN",
+            "label": "Neutral Air",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "6 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "6-11, 15-25",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "10 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "35",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "7% -> 5%, 12% -> 9%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "80, 361",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30, 25",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "80, 100",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Landing Lag",
+                    "value": "10 frames",
                     "color": "#231f24"
                 },
                 {
@@ -290,13 +521,266 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Clean (Red), Late (Orange)",
+                    "value": "First Hit (Orange), Second Hit (Red)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "Colors going darker is when percent decreases.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackAirF",
+            "label": "Forward Air",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "11 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "11-17",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "23 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "40",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "18% / 16%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "48 / 30",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "86 / 84",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Landing Lag",
+                    "value": "14 frames",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Outer (Red) / Inner (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackAirB",
+            "label": "Back Air",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "8 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "8-10",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "24 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "34",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "18%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "28 / 10",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "78 / 78",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Landing Lag",
+                    "value": "11 frames",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Outer (Red) / Inner (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackAirLw",
+            "label": "Down Air",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "16 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "16-20",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "24 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "44",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "22% / 22% / 17%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "270 / 295 / 270",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30 / 100 / 30",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100 / 65 / 100",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Landing Lag",
+                    "value": "19 frames",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Feet, Air Only (Red) / Feet, Ground Only (Red) / Upper Legs (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "AttackAirHi",
+            "label": "Up Air",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "6 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "6-10 / 11-13 / 14-16",
+                    "color": "#3c647d"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "17 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "33",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "13%, 12% / 12%, 10% / 8%, 6%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361 / 30 / 0",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "50 / 30 / 20",
+                    "color": "#402323"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "93 / 80 / 70",
+                    "color": "#402323"
+                },
+                {
+                    "label": "Landing Lag",
+                    "value": "1 frame",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Clean (Red), Late (Orange), Weak (Pink)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "Darker colors are the lower percent hits.",
                     "color": "#231f24"
                 }
             ]
         }
     ],
-    "aerials": [],
     "specials": [],
     "grabs": [],
     "rolls": [],
