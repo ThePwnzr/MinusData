@@ -12,7 +12,7 @@
                 {
                     "label": "Active on",
                     "value": "5",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -32,17 +32,17 @@
                 {
                     "label": "Angle",
                     "value": "350",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "40 / 30",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "50",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -68,7 +68,7 @@
                 {
                     "label": "Active on",
                     "value": "10-12",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -88,17 +88,17 @@
                 {
                     "label": "Angle",
                     "value": "22",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "50",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "93",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -124,7 +124,7 @@
                 {
                     "label": "Active on",
                     "value": "6-48 / 54-58",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Invulnerable",
@@ -149,21 +149,21 @@
                 {
                     "label": "Angle",
                     "value": "0 / 80 / 361 / 80",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "WDSK 1 / 60 / 60 / 60",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "100 / 64 / 64 / 37",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
-                    "value": "???",
+                    "value": "666% Shield Damage",
                     "color": "#231f24"
                 },
                 {
@@ -173,7 +173,7 @@
                 },
                 {
                     "label": "Notes",
-                    "value": "Windboxes suck in towards the center of the square. Unpictured ground-only Quake hitbox is size 150.",
+                    "value": "Windboxes suck in towards the center of the square. Unpictured ground-only Quake hitbox is size 150. ",
                     "color": "#231f24"
                 }
             ]
@@ -190,7 +190,7 @@
                 {
                     "label": "Active on",
                     "value": "10-12",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -210,17 +210,17 @@
                 {
                     "label": "Angle",
                     "value": "75",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "35",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "100",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -246,7 +246,7 @@
                 {
                     "label": "Active on",
                     "value": "10-12 / 13-19",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Super Armor",
@@ -271,17 +271,73 @@
                 {
                     "label": "Angle",
                     "value": "105 / 100",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "60 / 45",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "80 / 60",
-                    "color": "#402323"
+                    "color": "#732222"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "???, 1% Extra Damage / ???, 1% Extra Damage",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Clean (Red) / Late (Orange)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "GerudoDragon",
+            "label": "Dash Attack (Held)",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "10 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "10-20 / 22-27",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "21 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "48",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "1% / 5%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "16 / 102",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "64 / 71",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "80 / 100",
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -290,7 +346,7 @@
                 },
                 {
                     "label": "Hitboxes",
-                    "value": "Clean (Red) / Late (Orange)",
+                    "value": "First Hit (Orange), Second Hit (Red)",
                     "color": "#231f24"
                 }
             ]
@@ -307,7 +363,7 @@
                 {
                     "label": "Active on",
                     "value": "21-23, 24-30",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -327,17 +383,17 @@
                 {
                     "label": "Angle",
                     "value": "40 / 40 -> 80 / 80",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "30 / 30 -> 30 / 30",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "83 / 75 -> 74 / 58",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -363,7 +419,7 @@
                 {
                     "label": "Active on",
                     "value": "12-13",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -383,17 +439,17 @@
                 {
                     "label": "Angle",
                     "value": "80 / 78 / 75",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "40 / 40 / 40",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "70 / 70 / 75",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -419,7 +475,7 @@
                 {
                     "label": "Active on",
                     "value": "15-18, 35-38",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -439,17 +495,17 @@
                 {
                     "label": "Angle",
                     "value": "140 / 50 -> 154 / 154",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "WDSK 80 / WDSK 70 -> 60 / 60",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "100 / 100 -> 75 / 75",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "On Shield",
@@ -477,7 +533,7 @@
                 {
                     "label": "Active on",
                     "value": "6-11, 15-25",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -490,6 +546,16 @@
                     "color": "#7152a1"
                 },
                 {
+                    "label": "Autocancels",
+                    "value": "--",
+                    "color": "#376FAB"
+                },
+                {
+                    "label": "Actionable Before Landing",
+                    "value": "FH, FHFF",
+                    "color": "#395299"
+                },
+                {
                     "label": "Damage",
                     "value": "7% -> 5%, 12% -> 9%",
                     "color": "#c22525"
@@ -497,26 +563,26 @@
                 {
                     "label": "Angle",
                     "value": "80, 361",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "30, 25",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "80, 100",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Landing Lag",
                     "value": "10 frames",
-                    "color": "#231f24"
+                    "color": "#8c2a4e"
                 },
                 {
                     "label": "On Shield",
-                    "value": "???",
+                    "value": "-3 -> -4 / +0 -> -2",
                     "color": "#231f24"
                 },
                 {
@@ -543,7 +609,7 @@
                 {
                     "label": "Active on",
                     "value": "11-17",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -556,6 +622,16 @@
                     "color": "#7152a1"
                 },
                 {
+                    "label": "Autocancels",
+                    "value": "--",
+                    "color": "#376FAB"
+                },
+                {
+                    "label": "Actionable Before Landing",
+                    "value": "FH, FHFF",
+                    "color": "#395299"
+                },
+                {
                     "label": "Damage",
                     "value": "18% / 16%",
                     "color": "#c22525"
@@ -563,26 +639,26 @@
                 {
                     "label": "Angle",
                     "value": "361",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "48 / 30",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "86 / 84",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Landing Lag",
                     "value": "14 frames",
-                    "color": "#231f24"
+                    "color": "#8c2a4e"
                 },
                 {
                     "label": "On Shield",
-                    "value": "???",
+                    "value": "-6 / -1",
                     "color": "#231f24"
                 },
                 {
@@ -604,7 +680,7 @@
                 {
                     "label": "Active on",
                     "value": "8-10",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -617,6 +693,16 @@
                     "color": "#7152a1"
                 },
                 {
+                    "label": "Autocancels",
+                    "value": "SH, SHFF",
+                    "color": "#376FAB"
+                },
+                {
+                    "label": "Actionable Before Landing",
+                    "value": "FH, FHFF",
+                    "color": "#395299"
+                },
+                {
                     "label": "Damage",
                     "value": "18%",
                     "color": "#c22525"
@@ -624,26 +710,26 @@
                 {
                     "label": "Angle",
                     "value": "361",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "28 / 10",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "78 / 78",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Landing Lag",
                     "value": "11 frames",
-                    "color": "#231f24"
+                    "color": "#8c2a4e"
                 },
                 {
                     "label": "On Shield",
-                    "value": "???",
+                    "value": "-3",
                     "color": "#231f24"
                 },
                 {
@@ -665,7 +751,7 @@
                 {
                     "label": "Active on",
                     "value": "16-20",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -678,6 +764,16 @@
                     "color": "#7152a1"
                 },
                 {
+                    "label": "Autocancels",
+                    "value": "SH, FHFF",
+                    "color": "#376FAB"
+                },
+                {
+                    "label": "Actionable Before Landing",
+                    "value": "FH",
+                    "color": "#395299"
+                },
+                {
                     "label": "Damage",
                     "value": "22% / 22% / 17%",
                     "color": "#c22525"
@@ -685,26 +781,26 @@
                 {
                     "label": "Angle",
                     "value": "270 / 295 / 270",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "30 / 100 / 30",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "100 / 65 / 100",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Landing Lag",
                     "value": "19 frames",
-                    "color": "#231f24"
+                    "color": "#8c2a4e"
                 },
                 {
                     "label": "On Shield",
-                    "value": "???",
+                    "value": "-20",
                     "color": "#231f24"
                 },
                 {
@@ -726,7 +822,7 @@
                 {
                     "label": "Active on",
                     "value": "6-10 / 11-13 / 14-16",
-                    "color": "#3c647d"
+                    "color": "#2E9797"
                 },
                 {
                     "label": "Endlag",
@@ -739,6 +835,16 @@
                     "color": "#7152a1"
                 },
                 {
+                    "label": "Autocancels",
+                    "value": "SH, SHFF",
+                    "color": "#376FAB"
+                },
+                {
+                    "label": "Actionable Before Landing",
+                    "value": "FH, FHFF",
+                    "color": "#395299"
+                },
+                {
                     "label": "Damage",
                     "value": "13%, 12% / 12%, 10% / 8%, 6%",
                     "color": "#c22525"
@@ -746,26 +852,26 @@
                 {
                     "label": "Angle",
                     "value": "361 / 30 / 0",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Base KB",
                     "value": "50 / 30 / 20",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "KB Growth",
                     "value": "93 / 80 / 70",
-                    "color": "#402323"
+                    "color": "#732222"
                 },
                 {
                     "label": "Landing Lag",
                     "value": "1 frame",
-                    "color": "#231f24"
+                    "color": "#8c2a4e"
                 },
                 {
                     "label": "On Shield",
-                    "value": "???",
+                    "value": "+10, +9 / +9, +8 / +7, +6",
                     "color": "#231f24"
                 },
                 {
@@ -781,7 +887,487 @@
             ]
         }
     ],
-    "specials": [],
+    "specials": [
+        {
+            "name": "SpecialN",
+            "label": "Neutral B (Warlock Punch)",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "70 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "70-73",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Invulnerable",
+                    "value": "70-73",
+                    "color": "#2967cc"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "46 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "119",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "666%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100",
+                    "color": "#732222"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "Unblockable",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "All (Red)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialNTurn",
+            "label": "Neutral B Reversed",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "80 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "80-83",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Invulnerable",
+                    "value": "80-83",
+                    "color": "#2967cc"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "46 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "129",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "666%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100",
+                    "color": "#732222"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "Unblockable",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "All (Red)",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialAirN",
+            "label": "Air Neutral B",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "70 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "70-73",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Invulnerable",
+                    "value": "70-73",
+                    "color": "#2967cc"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "47 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "120",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "666%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100",
+                    "color": "#732222"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "Unblockable",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "All (Red)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "Cancellable on hit.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialAirNTurn",
+            "label": "Air Neutral B Reversed",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "79 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "79-82",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Invulnerable",
+                    "value": "79-82",
+                    "color": "#2967cc"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "46 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "128",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "666%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "30",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "100",
+                    "color": "#732222"
+                },
+                {
+                    "label": "On Shield",
+                    "value": "Unblockable",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "All (Red)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "Cancellable on hit.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialNGandouken",
+            "label": "Held Neutral B (Gandouken)",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "70 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "70",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Invincible",
+                    "value": "69-71",
+                    "color": "#1bb32f"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "46 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "119",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Spawns Article",
+                    "value": "Gandouken",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Notes",
+                    "value": "Available on every Warlock Punch.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "ArticleGandouken",
+            "label": "Gandouken (Article)",
+            "stats": [
+                {
+                    "label": "Total Frames",
+                    "value": "120",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "1% every 11 frames (12% total)",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "514 (Inwards Radial)",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "20",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "90",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Blockable",
+                    "value": "No",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Reflectable",
+                    "value": "No",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Absorbable",
+                    "value": "No",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "0x SDI Multiplier",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialS",
+            "label": "Side B (Flame Choke)",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "11 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "11-23",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "29 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "52",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "--",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Grab (Purple)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "White hitboxes are SSE only.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialSGrab",
+            "label": "Side B Grab",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "--",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "--",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Super Armor",
+                    "value": "17-35",
+                    "color": "#647be8"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "--",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "42",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "9%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "361?",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "60",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "90",
+                    "color": "#732222"
+                }
+            ]
+        },
+        {
+            "name": "SpecialAirS",
+            "label": "Side B (Air)",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "11 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "11-24",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "28 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "52",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "--",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Grab (Purple)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "White hitboxes are SSE only.",
+                    "color": "#231f24"
+                }
+            ]
+        }
+    ],
     "grabs": [],
     "rolls": [],
     "misc": []
