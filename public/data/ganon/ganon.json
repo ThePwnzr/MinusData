@@ -1356,8 +1356,74 @@
                     "color": "#c22525"
                 },
                 {
+                    "label": "Landing Lag",
+                    "value": "30 frames",
+                    "color": "#8c2a4e"
+                },
+                {
                     "label": "Hitboxes",
                     "value": "Grab (Purple)",
+                    "color": "#231f24"
+                },
+                {
+                    "label": "Notes",
+                    "value": "White hitboxes are SSE only.",
+                    "color": "#231f24"
+                }
+            ]
+        },
+        {
+            "name": "SpecialHi",
+            "label": "Up B (Dark Dive)",
+            "stats": [
+                {
+                    "label": "Startup",
+                    "value": "14 frames",
+                    "color": "#00994d"
+                },
+                {
+                    "label": "Active on",
+                    "value": "14-28 / 34-36",
+                    "color": "#2E9797"
+                },
+                {
+                    "label": "Endlag",
+                    "value": "29 frames",
+                    "color": "#c24c1d"
+                },
+                {
+                    "label": "Total Frames",
+                    "value": "65",
+                    "color": "#7152a1"
+                },
+                {
+                    "label": "Damage",
+                    "value": "Grab / 20%",
+                    "color": "#c22525"
+                },
+                {
+                    "label": "Angle",
+                    "value": "-- / 70",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Base KB",
+                    "value": "-- / 55",
+                    "color": "#732222"
+                },
+                {
+                    "label": "KB Growth",
+                    "value": "-- / 70",
+                    "color": "#732222"
+                },
+                {
+                    "label": "Landing Lag",
+                    "value": "30 frames",
+                    "color": "#8c2a4e"
+                },
+                {
+                    "label": "Hitboxes",
+                    "value": "Grab (Purple), Attack (Red)",
                     "color": "#231f24"
                 },
                 {
